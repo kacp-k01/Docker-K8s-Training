@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Docker&amp;KubernetesTraining.iml" filepath="$PROJECT_DIR$/.idea/Docker&amp;KubernetesTraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Docker_K8s_Training.iml" filepath="$PROJECT_DIR$/.idea/Docker_K8s_Training.iml" />
     </modules>
   </component>
 </project>
