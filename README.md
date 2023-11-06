@@ -1,4 +1,4 @@
-# Docker & Kubernetes Training
+# Docker Training
 This course was done by me to expand my knowledge about Docker and by extension, Kubernetes. You can find the link [here](https://www.youtube.com/watch?v=bhBSlnQcq2k&list=PLbWCzai5KmODKztSb6wMx0zsJGbx_N53_&index=1&t=1759s).
 
 ### Command for building images / Docker notes:
@@ -61,6 +61,14 @@ go inside container and open its terminal
 docker rm <container id>			
 ```
 delete specific container
+
+```
+docker build --tag <name>:<tag> .
+```
+build image from current directory
+
+docker run --name website -p 8080:80 -d website:latest
+
 
 ## Start Bootstrap - Grayscale
 Landing page was not created by me, but taken as a bootstrap from free source. [Grayscale](https://startbootstrap.com/theme/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
